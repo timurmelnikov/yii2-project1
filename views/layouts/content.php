@@ -1,4 +1,5 @@
 <?php
+
 use yii\widgets\Breadcrumbs;
 use dmstr\widgets\Alert;
 
@@ -39,8 +40,8 @@ use dmstr\widgets\Alert;
     <div class="pull-right hidden-xs">
         <b>Version</b> 2.0
     </div>
-    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    &copy; <?= Yii::$app->params['authorName'] ?> <?= date('Y') ?> <a href="<?= Yii::$app->params['sourceCode'] ?>"
+                                                                      target="blank_">GitHub</a>
 </footer>
 
 <!-- Control Sidebar -->
