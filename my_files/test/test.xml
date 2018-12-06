@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="windows-1251"?> -->
+<chapter>
+    <item>
+        <date>2015-06-09</date>
+        <code>392</code>
+        <char3>JPY</char3>
+        <size>1000</size>
+        <name>��������� ��</name>
+        <rate>168.4393</rate>
+        <change>-0.0736</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>156</code>
+        <char3>CNY</char3>
+        <size>100</size>
+        <name>����� ���������� (�����)</name>
+        <rate>340.0004</rate>
+        <change>1.0908</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>756</code>
+        <char3>CHF</char3>
+        <size>100</size>
+        <name>������������ �������</name>
+        <rate>2249.7181</rate>
+        <change>-1.3555</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>752</code>
+        <char3>SEK</char3>
+        <size>100</size>
+        <name>��������� ����</name>
+        <rate>251.4416</rate>
+        <change>-1.0472</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>203</code>
+        <char3>CZK</char3>
+        <size>100</size>
+        <name>������� ����</name>
+        <rate>85.8684</rate>
+        <change>-0.2272</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>860</code>
+        <char3>UZS</char3>
+        <size>100</size>
+        <name>��������� �����</name>
+        <rate>0.8303</rate>
+        <change>0.0017</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>348</code>
+        <char3>HUF</char3>
+        <size>1000</size>
+        <name>��������� ��������</name>
+        <rate>75.0264</rate>
+        <change>-0.747</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>934</code>
+        <char3>TMT</char3>
+        <size>100</size>
+        <name>������������ �����</name>
+        <rate>602.9270</rate>
+        <change>2.1897</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>949</code>
+        <char3>TRY</char3>
+        <size>100</size>
+        <name>��������� ���</name>
+        <rate>763.1475</rate>
+        <change>-25.7334</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>960</code>
+        <char3>XDR</char3>
+        <size>100</size>
+        <name>���</name>
+        <rate>2947.0094</rate>
+        <change>0.3243</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>702</code>
+        <char3>SGD</char3>
+        <size>100</size>
+        <name>������������� �������</name>
+        <rate>1553.2178</rate>
+        <change>-6.5461</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>643</code>
+        <char3>RUB</char3>
+        <size>10</size>
+        <name>���������� ������</name>
+        <rate>3.7654</rate>
+        <change>0.0272</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>985</code>
+        <char3>PLN</char3>
+        <size>100</size>
+        <name>��������� ������</name>
+        <rate>566.8828</rate>
+        <change>-2.2818</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>578</code>
+        <char3>NOK</char3>
+        <size>100</size>
+        <name>���������� ����</name>
+        <rate>266.8466</rate>
+        <change>-0.926</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>498</code>
+        <char3>MDL</char3>
+        <size>100</size>
+        <name>����������� ����</name>
+        <rate>115.3479</rate>
+        <change>0.4704</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>124</code>
+        <char3>CAD</char3>
+        <size>100</size>
+        <name>���������� �������</name>
+        <rate>1697.1358</rate>
+        <change>15.1313</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>398</code>
+        <char3>KZT</char3>
+        <size>100</size>
+        <name>�������������� �����</name>
+        <rate>11.3485</rate>
+        <change>0.0413</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>352</code>
+        <char3>ISK</char3>
+        <size>100</size>
+        <name>����������� ����</name>
+        <rate>15.8272</rate>
+        <change>-0.0725</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>978</code>
+        <char3>EUR</char3>
+        <size>100</size>
+        <name>����</name>
+        <rate>2355.4548</rate>
+        <change>-3.2201</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>840</code>
+        <char3>USD</char3>
+        <size>100</size>
+        <name>������� ���</name>
+        <rate>2110.2444</rate>
+        <change>7.6638</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>208</code>
+        <char3>DKK</char3>
+        <size>100</size>
+        <name>�������� ����</name>
+        <rate>315.7361</rate>
+        <change>-0.4274</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>974</code>
+        <char3>BYR</char3>
+        <size>10</size>
+        <name>����������� ������</name>
+        <rate>0.0137</rate>
+        <change>0</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>826</code>
+        <char3>GBP</char3>
+        <size>100</size>
+        <name>����������� ������ ����������</name>
+        <rate>3218.7139</rate>
+        <change>-4.8407</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>944</code>
+        <char3>AZN</char3>
+        <size>100</size>
+        <name>���������������� �����</name>
+        <rate>2012.2479</rate>
+        <change>6.3515</change>
+    </item>
+    <item>
+        <date>2015-06-09</date>
+        <code>036</code>
+        <char3>AUD</char3>
+        <size>100</size>
+        <name>�������������� �������</name>
+        <rate>1611.6694</rate>
+        <change>-11.1976</change>
+    </item>
+</chapter>
