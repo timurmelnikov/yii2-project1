@@ -1,4 +1,5 @@
 <?php
+
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
@@ -6,14 +7,14 @@ use yii\bootstrap\ActiveForm;
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */
 
-$this->title = 'Sign In';
+$this->title = 'Авторизация';
 
-$fieldOptions1 = [
+$usernameOptions = [
     'options' => ['class' => 'form-group has-feedback'],
-    'inputTemplate' => "{input}<span class='glyphicon glyphicon-envelope form-control-feedback'></span>"
+    'inputTemplate' => "{input}<span class='glyphicon glyphicon-user form-control-feedback'></span>"
 ];
 
-$fieldOptions2 = [
+$passwordOptions = [
     'options' => ['class' => 'form-group has-feedback'],
     'inputTemplate' => "{input}<span class='glyphicon glyphicon-lock form-control-feedback'></span>"
 ];
@@ -21,21 +22,21 @@ $fieldOptions2 = [
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="#"><b>Admin</b>LTE</a>
+        <a href="#">Мое приложение</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Авторизируйтесь, чтобы начать сеанс</p>
 
-        <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
+        <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => true]); ?>
 
         <?= $form
-            ->field($model, 'username', $fieldOptions1)
+            ->field($model, 'username', $usernameOptions)
             ->label(false)
             ->textInput(['placeholder' => $model->getAttributeLabel('username')]) ?>
 
         <?= $form
-            ->field($model, 'password', $fieldOptions2)
+            ->field($model, 'password', $passwordOptions)
             ->label(false)
             ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
 
@@ -45,7 +46,7 @@ $fieldOptions2 = [
             </div>
             <!-- /.col -->
             <div class="col-xs-4">
-                <?= Html::submitButton('Sing in', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
+                <?= Html::submitButton('Войти', ['class' => 'btn btn-primary btn-block btn-flat', 'name' => 'login-button']) ?>
             </div>
             <!-- /.col -->
         </div>
@@ -53,17 +54,8 @@ $fieldOptions2 = [
 
         <?php ActiveForm::end(); ?>
 
-        <div class="social-auth-links text-center">
-            <p>- OR -</p>
-            <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in
-                using Facebook</a>
-            <a href="#" class="btn btn-block btn-social btn-google-plus btn-flat"><i class="fa fa-google-plus"></i> Sign
-                in using Google+</a>
-        </div>
-        <!-- /.social-auth-links -->
 
-        <a href="#">I forgot my password</a><br>
-        <a href="register.html" class="text-center">Register a new membership</a>
+<!--        <a href="#">Я забыл свой пароль</a>-->
 
     </div>
     <!-- /.login-box-body -->
