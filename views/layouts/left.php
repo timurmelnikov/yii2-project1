@@ -30,105 +30,60 @@
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget' => 'tree'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
-                    ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
+                    ['label' => 'Меню', 'options' => ['class' => 'header']],
                     [
-                        'label' => 'Для разработчика',
-                        'icon' => 'share',
+                        'label' => 'Операции',
+                        'icon' => 'calculator',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
-                            ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
+                            ['label' => 'Доходы', 'icon' => 'arrow-down', 'url' => ['#'],],
+                            ['label' => 'Расходы', 'icon' => 'arrow-up', 'url' => ['#'],],
+                            ['label' => 'Перемещения', 'icon' => 'exchange', 'url' => ['#'],],
+                            ['label' => 'Списки покупок', 'icon' => 'list', 'url' => ['#'],],
                         ],
                     ],
-
-
-                    [
-                        'label' => 'Доходы',
-                        'icon' => 'share',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
-                            ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
-                            [
-                                'label' => 'Level One',
-                                'icon' => 'circle-o',
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
-                        ],
-                    ],
-
-                    [
-                        'label' => 'Расходы',
-                        'icon' => 'share',
-                        'url' => '#',
-                        'items' => [
-                            ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
-                            ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
-                            [
-                                'label' => 'Level One',
-                                'icon' => 'circle-o',
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                        ],
-                                    ],
-                                ],
-                            ],
-                        ],
-                    ],
-
                     [
                         'label' => 'Словари',
-                        'icon' => 'share',
+                        'icon' => 'list-alt',
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Категории доходов', 'icon' => 'file-code-o', 'url' => ['#'],],
-                            ['label' => 'Категории расходов', 'icon' => 'file-code-o', 'url' => ['#'],],
-                            ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug'],],
+                            ['label' => 'Счета (кошельки)', 'icon' => 'cc-visa', 'url' => ['#'],],
+                            ['label' => 'Категории доходов', 'icon' => 'list-ul', 'url' => ['#'],],
+                            ['label' => 'Категории расходов', 'icon' => 'list-ul', 'url' => ['#'],],
+                            ['label' => 'Шаблоны расходов', 'icon' => 'file-text', 'url' => ['#'],],
+                            ['label' => 'Единицы измерения', 'icon' => 'balance-scale', 'url' => ['#'],],
+                            ['label' => 'Курсы валют', 'icon' => 'dollar', 'url' => ['#'],],
+                        ],
+                    ],
+                    [
+                        'label' => 'Отчеты',
+                        'icon' => 'area-chart',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Отчет 1', 'icon' => 'pie-chart', 'url' => ['#'],],
+                            ['label' => 'Отчет 2', 'icon' => 'bar-chart', 'url' => ['#'],],
+                        ],
+                    ],
+                    [
+                        'label' => 'Управление',
+                        'icon' => 'user-secret',
+                        'url' => '#',
+                        'items' => [
+                            ['label' => 'Пользователи', 'icon' => 'users', 'url' => ['#'],],
+
                             [
-                                'label' => 'Level One',
-                                'icon' => 'circle-o',
+                                'label' => 'Development',
+                                'icon' => 'code',
                                 'url' => '#',
                                 'items' => [
-                                    ['label' => 'Level Two', 'icon' => 'circle-o', 'url' => '#',],
-                                    [
-                                        'label' => 'Level Two',
-                                        'icon' => 'circle-o',
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                            ['label' => 'Level Three', 'icon' => 'circle-o', 'url' => '#',],
-                                        ],
-                                    ],
+                                    ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii'],],
+                                    ['label' => 'Debug', 'icon' => 'bug', 'url' => ['/debug'],],
                                 ],
                             ],
                         ],
                     ],
 
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
-
-
                 ],
             ]
         ) ?>
