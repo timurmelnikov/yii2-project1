@@ -3,9 +3,9 @@
 use yii\db\Migration;
 
 /**
- * Class m181211_112042_create_table_unit
+ * Class m181211_150629_create_table_unit
  */
-class m181211_112042_create_table_unit extends Migration
+class m181211_150629_create_table_unit extends Migration
 {
     /**
      * {@inheritdoc}
@@ -32,8 +32,6 @@ class m181211_112042_create_table_unit extends Migration
             ['проезд', 'Проезд'],
             ['бан', 'Банка']
         ]);
-
-
     }
 
     /**
@@ -41,10 +39,9 @@ class m181211_112042_create_table_unit extends Migration
      */
     public function safeDown()
     {
-        echo "m181211_112042_create_table_unit cannot be reverted.\n";
+        echo "m181211_150629_create_table_unit cannot be reverted.\n";
 
         return false;
     }
-
 
 }

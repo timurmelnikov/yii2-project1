@@ -50,6 +50,9 @@ $config = [
             'rules' => [
             ],
         ],
+        'authManager'  => [
+            'class'        => 'yii\rbac\DbManager',
+        ],
     ],
     'modules' => [
         'gridview' => [
