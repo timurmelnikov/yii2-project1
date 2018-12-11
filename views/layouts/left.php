@@ -49,7 +49,7 @@
                             ['label' => 'Категории доходов', 'icon' => 'list-ul', 'url' => ['#'],],
                             ['label' => 'Категории расходов', 'icon' => 'list-ul', 'url' => ['#'],],
                             ['label' => 'Шаблоны расходов', 'icon' => 'file-text', 'url' => ['#'],],
-                            ['label' => 'Единицы измерения', 'icon' => 'balance-scale', 'url' => ['#'],],
+                            ['label' => 'Единицы измерения', 'icon' => 'balance-scale', 'url' => ['/unit'],],
                             ['label' => 'Курсы валют', 'icon' => 'dollar', 'url' => ['#'],],
                         ],
                     ],
